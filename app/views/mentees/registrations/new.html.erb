@@ -65,6 +65,7 @@
   </div>
 
   <div class="actions">
+    <%= f.hidden_field 'type', :value => params["mentee"]%>
     <%= f.submit "Sign up" %>
   </div>
 <% end %>
