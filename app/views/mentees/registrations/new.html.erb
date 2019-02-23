@@ -21,6 +21,49 @@
     <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
   </div>
 
+<hr><br>
+
+  <div class="field">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :school %>
+    <%= f.text_field :school %>
+  </div>
+
+  <div class="field">
+    <%= f.label :degree %>
+    <%= f.text_field :degree %>
+  </div>
+
+  <div class="field">
+    <%= f.label :age %>
+    <%= f.number_field(:age, in: 15..100, step: 1) %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phone_number %>
+    <%= f.telephone_field :phone_number %>
+  </div>
+
+
+  <div class="field">
+    <%= f.label :location %>
+    <%= f.text_field :location %>
+  </div>
+
+  <div class="field">
+    <%= f.label :interests %>
+    <%= f.text_field :interests %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
