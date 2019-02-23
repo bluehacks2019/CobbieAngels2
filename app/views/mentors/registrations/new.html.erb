@@ -3,8 +3,6 @@
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <%= hidden_field_tag(:usertype, :value => "mentor") %>
-
   <div class="field">
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
@@ -65,8 +63,8 @@
   </div>
 
   <div class="actions">
-    <%= f.hidden_field :usertype, value: ['mentor'] %>
     <%= f.submit "Sign up" %>
+    <%= f.hidden_field :usertype, :value => "mentor" %>
   </div>
 <% end %>
 
