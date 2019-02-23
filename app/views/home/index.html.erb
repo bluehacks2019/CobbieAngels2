@@ -5,7 +5,9 @@
 <div class="app-title">Ment For Others</div>
 <div class="about-us">About Us</div>
 <div class="login-bg"></div>
-<div class="login"><%= link_to "Login", new_mentor_session_path %> </div>
+<div class="login"><%= link_to "Login", new_mentor_session_path %> 
+<%= link_to "Logout", destroy_mentor_session_path, :method => :delete %>
+</div>
 <div class=""></div>
 <div class="team-photo"><%= image_tag("team_photo.svg", :alt => "description") %></div>
 <div class="tagline">Creating a community of mentors and mentees.</div>
