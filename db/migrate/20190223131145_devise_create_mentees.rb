@@ -32,6 +32,16 @@ class DeviseCreateMentees < ActiveRecord::Migration[5.2]
       # t.string   :unlock_token # Only if unlock strategy is :email or :both
       # t.datetime :locked_at
 
+      ## MENTEE CREDENTIALS
+      t.string :first_name
+      t.string :last_name
+      t.string :school
+      t.string :degree
+      t.integer :age
+      t.integer :phone_number
+      t.string :location
+      t.string :interests
+      
 
       t.timestamps null: false
     end

@@ -32,7 +32,16 @@ class DeviseCreateMentors < ActiveRecord::Migration[5.2]
       # t.string   :unlock_token # Only if unlock strategy is :email or :both
       # t.datetime :locked_at
 
-
+      ## MENTOR CREDENTIALS
+      t.string :first_name
+      t.string :last_name
+      t.string :affiliation
+      t.integer :age
+      t.integer :phone_number
+      t.string :occupation
+      t.string :location
+      t.string :field_of_expertise
+      
       t.timestamps null: false
     end
 
