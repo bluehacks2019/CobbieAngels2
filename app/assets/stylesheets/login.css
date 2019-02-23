@@ -1,0 +1,65 @@
+
+#login-header {
+	position: absolute;
+	width: 488px;
+	height: 56px;
+	left: 476px;
+	top: 559px;
+
+	/* Green 2 */
+	background: #27AE60;
+	border-radius: 4px;
+}
+#box5 {
+position: absolute;
+width: 796px;
+height: 431px;
+left: 322px;
+top: 266px;
+
+background: #FBFBFB;
+box-shadow: 7px 6px 7px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+
+}
+
+#user-box {
+	position: absolute;
+	width: 488px;
+	height: 56px;
+	left: 476px;
+	top: 407px;
+
+	background: #FFFFFF;
+	border: 2px solid #3C5CCB;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+#pass-box {
+	position: absolute;
+	width: 488px;
+	height: 56px;
+	left: 476px;
+	top: 483px;
+
+	background: #FFFFFF;
+	border: 2px solid #3C5CCB;
+	box-sizing: border-box;
+	border-radius: 4px;
+
+}
+
+#submit-box {
+
+position: absolute;
+width: 488px;
+height: 56px;
+left: 476px;
+top: 559px;
+
+/* Green 2 */
+background: #27AE60;
+border-radius: 4px;
+}
+
