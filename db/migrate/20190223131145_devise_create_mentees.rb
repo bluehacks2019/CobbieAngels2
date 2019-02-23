@@ -41,7 +41,6 @@ class DeviseCreateMentees < ActiveRecord::Migration[5.2]
       t.integer :phone_number
       t.string :location
       t.string :interests
-      
 
       t.timestamps null: false
     end
