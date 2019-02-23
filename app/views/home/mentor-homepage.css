@@ -1,0 +1,284 @@
+.navbarmain{
+    position: absolute;
+    width: 1440px;
+    height: 112px;
+    left: 0px;
+    top: 0px;
+    
+    background: #3C5CCB;
+
+}
+
+.app-title{
+
+position: absolute;
+width: 250px;
+left: 153px;
+top: 32px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 36px;
+
+color: #FFFFFF;
+}
+
+.home-button{
+    position: absolute;
+width: 47px;
+height: 24px;
+left: 1066px;
+top: 44px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 18px;
+
+color: #FFFFFF;
+}
+
+.events-button{
+    position: absolute;
+width: 53px;
+height: 24px;
+left: 1175px;
+top: 44px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 18px;
+
+color: #FFFFFF;
+}
+
+.feature-button{
+    position: absolute;
+width: 100px;
+height: 24px;
+left: 1290px;
+top: 44px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 18px;
+
+color: #FFFFFF;
+
+}
+
+.white-bg{
+    height:1200px;
+}
+.mentee-header{
+    position: absolute;
+width: 228px;
+height: 53px;
+left: 98px;
+top: 199px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 40px;
+
+color: #3C5CCB;
+}
+
+.event-card{
+    position: absolute;
+width: 167px;
+height: 53px;
+top: 470px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 40px;
+
+color: black;
+
+}
+
+.card-1{
+    left: 110px;
+}
+.card-2{
+    left: 424px;
+}
+
+.card-3{
+    left:759px;
+}
+.card-4{
+    left: 1083px;
+}
+
+.card-bottom{
+    top: 660px;
+
+}
+
+.card-description{
+    position: absolute;
+width: 262px;
+height: 24px;
+top: 554px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 18px;
+
+color: black;
+
+}
+.card-description-bottom{
+    position: absolute;
+    width: 262px;
+    height: 24px;
+    top: 554px;
+    
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 18px;
+    
+    color: black;
+}
+
+.card-date{
+    position: absolute;
+width: 176px;
+height: 24px;
+top: 586px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 18px;
+
+color: black;
+
+}
+.mentee-popup{
+    position: absolute;
+width: 513px;
+height: 457px;
+left: 98px;
+top: 687px;
+
+background: #3C5CCB;
+border-radius: 0px 0px 3px 3px;
+}
+
+.mentee-popup-num{
+    position: absolute;
+width: 185px;
+height: 74px;
+left: 150px;
+top: 732px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 40px;
+
+color: #FFFFFF;
+}
+.mentee-popup-name{
+    position: absolute;
+width: 190px;
+height: 32px;
+left: 150px;
+top: 819px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 24px;
+
+color: #FFFFFF;
+}
+
+.mentee-popup-title{
+    position: absolute;
+width: 282px;
+height: 39px;
+left: 150px;
+top: 819px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 24px;
+
+color: #FFFFFF;
+
+}
+
+.mentee-popup-event{
+    position: absolute;
+width: 226px;
+height: 52px;
+left: 150px;
+top: 858px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 18px;
+
+color: #FFFFFF;
+
+}
+
+.mentee-popup-description{
+
+    position: absolute;
+    width: 416px;
+    height: 190px;
+    left: 150px;
+    top: 916px;
+    
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 16px;
+    
+    color: #FFFFFF;
+    
+}
+.mentee-popup-remove{
+    position: absolute;
+width: 146px;
+height: 24px;
+left: 150px;
+top: 987px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: 560;
+line-height: normal;
+font-size: 18px;
+
+color: #FFFFFF;
+
+}
