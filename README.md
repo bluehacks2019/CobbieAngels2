@@ -5,6 +5,14 @@
 3. Paolo Sanchez
 4. Matthew Oracion
 
+
+## Ment for Others
+Ment for Others is an app that will allow college students to find mentors that would like to share their skills on their particular field of expertise
+
+Mentees can navigate through a catalog of fields of interests and upcoming events to find mentors that will be able to help them improve their skills
+
+Mentees can have individual sessions with a mentor or participate in an event to learn with other people with similar interests
+
 ## Installation
 
 * Get homebrew
