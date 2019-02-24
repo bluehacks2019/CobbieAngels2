@@ -1,73 +1,30 @@
-<h2>Sign up</h2>
+<div>
+
+<div class="navbarmain">
+<div class="logo"><%= image_tag("logo.svg", :alt => "description") %></div>
+<div class="app-title">Ment For Others</div>
+<div class="home-button">Home</div>
+<div class="a-rectangle"></div>
+<div class="sign-header">Signup as Mentee</div>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
+      <%= f.text_field :first_name, class: 'fname', placeholder: "First Name" %>
+      <%= f.text_field :last_name, class: 'lname', placeholder: "Last Name" %>
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Email", class: 'email' %>
+      <%= f.telephone_field :phone_number, class: 'pnumber', placeholder: "Phone Number" %>
+      <%= f.number_field(:age, in: 15..100, step: 1, class: 'age', placeholder: "Age") %>
+      <%= f.password_field :password, autocomplete: "new-password", class: 'pass', placeholder: "Password (minimum 6 characters)" %>
+      <%= f.password_field :password_confirmation, autocomplete: "new-password", class: 'cpass', placeholder: "Confirm Password" %>
+      <%= f.text_field :school, class: 'occupation', placeholder: "School" %>
+      <%= f.text_field :degree, class: 'aff', placeholder: "Degree" %>
+      <%= f.text_field :interests, class: 'foe', placeholder: "Interests" %>
+      <%= f.hidden_field :usertype, :value => "mentee" %>
 
-  <div class="field">
-    <%= f.label :password %>
-    <% if @minimum_password_length %>
-    <em>(<%= @minimum_password_length %> characters minimum)</em>
-    <% end %><br />
-    <%= f.password_field :password, autocomplete: "new-password" %>
-  </div>
+      <%= f.submit "Sign up", class: 'rbutton' %>
+  <% end %>
+</div>
+</div>
 
-  <div class="field">
-    <%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
-  </div>
-
-<hr><br>
-
-  <div class="field">
-    <%= f.label :first_name %>
-    <%= f.text_field :first_name %>
-  </div>
-
-  <div class="field">
-    <%= f.label :last_name %>
-    <%= f.text_field :last_name %>
-  </div>
-
-  <div class="field">
-    <%= f.label :school %>
-    <%= f.text_field :school %>
-  </div>
-
-  <div class="field">
-    <%= f.label :degree %>
-    <%= f.text_field :degree %>
-  </div>
-
-  <div class="field">
-    <%= f.label :age %>
-    <%= f.number_field(:age, in: 15..100, step: 1) %>
-  </div>
-
-  <div class="field">
-    <%= f.label :phone_number %>
-    <%= f.telephone_field :phone_number %>
-  </div>
-
-
-  <div class="field">
-    <%= f.label :location %>
-    <%= f.text_field :location %>
-  </div>
-
-  <div class="field">
-    <%= f.label :interests %>
-    <%= f.text_field :interests %>
-  </div>
-
-  <div class="actions">
-    <%= f.submit "Sign up" %>
-    <%= f.hidden_field :usertype, :value => "mentee" %>
-  </div>
-<% end %>
-
-<%# <%= redirect_to '/home/mentees', mentees %>
+<%= render "mentors/shared/links" %>

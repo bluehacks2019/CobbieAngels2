@@ -5,5 +5,4 @@ Rails.application.routes.draw do
 
   resources :mentees, :mentors
   root to: 'home#index'
-  
 end

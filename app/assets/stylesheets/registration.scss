@@ -1,12 +1,19 @@
 .sign-header {
     position: absolute;
-    width: 1440px;
-    height: 248px;
-    left: 0px;
-    top: 0px;
+width: 291px;
+height: 48px;
+left: 575px;
+top: 200px;
 
+font-family: Assistant;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 36px;
 
+color: #3C5CCB;
 }
+
 .fname {
 position: absolute;
 width: 488px;
@@ -39,7 +46,8 @@ border-radius: 4px;
     height: 56px;
     left: 197px;
     top: 363px;
-    
+    color:rgba(0,0,0,0.7);
+
     background: #FFFFFF;
     border: 2px solid #3C5CCB;
     box-sizing: border-box;
