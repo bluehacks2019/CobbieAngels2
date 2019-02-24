@@ -3,7 +3,12 @@
     href = "mentor-homepage.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-    <script type = "text/javascript"></script>
+    <script type = "text/javascript">
+
+        
+    </script>
+
+    
     </head>
     <div class="navbarmain"></div>
     <div class="logo"><%= image_tag("logo.svg", :alt => "description") %></div>
@@ -16,7 +21,7 @@
     <div class="white-bg"></div>
     <div class="mentee-header">My Mentees</div>
 
-    <div class="event-pic-top pic1" onClick = "myFunction()"">
+    <div class="event-pic-top pic1">
     <%= image_tag("laptop-normal.png", :alt => "description") %></div>
     <div class="rec-bg-pic pic1"></div>
     <div class="event-pic-top pic2"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
@@ -25,14 +30,7 @@
     <div class="rec-bg-pic pic3"></div>
     <div class="event-pic-top pic4"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
     <div class="rec-bg-pic pic4"></div>
-    <div class="event-pic-bottom pic1"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
-    <div class="rec-bg-pic-bottom pic1"></div>
-    <div class="event-pic-bottom pic2"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
-    <div class="rec-bg-pic-bottom pic2"></div>
-    <div class="event-pic-bottom pic3"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
-    <div class="rec-bg-pic-bottom pic3"></div>
-    <div class="event-pic-bottom pic4"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
-    <div class="rec-bg-pic-bottom pic4"></div>
+   
     
 
     <div class="event-card card-1">Event 1</div>
@@ -52,28 +50,7 @@
     <div class="card-date card-4">February 28, 2019</div>
 
  
-    <!-- events 5-8 -->
-    
-
-     <div class="event-card card-1 card-bottom">Event 5</div>
-    <div class="card-description-bottom card-1 card-bottom">Learn HTML/CSS basics with Jake</div>
-    <div class="card-date-bottom card-1 card-bottom">February 28, 2019</div>
-
-    <div class="event-card card-2 card-bottom">Event 6</div>
-    <div class="card-description-bottom card-2 card-bottom">Learn HTML/CSS basics with Jake</div>
-    <div class="card-date-bottom card-2 card-bottom">February 28, 2019</div>
-
-    <div class="event-card card-3 card-bottom">Event 7</div>
-    <div class="card-description-bottom card-3 card-bottom">Learn HTML/CSS basics with Jake</div>
-    <div class="card-date-bottom card-3 card-bottom">February 28, 2019</div>
-
-    <div class="event-card card-4 card-bottom">Event 8</div>
-    <div class="card-description-bottom card-4 card-bottom">Learn HTML/CSS basics with Jake</div>
-    <div class="card-date-bottom card-4 card-bottom">February 28, 2019</div> 
-
-<%#
-<div class="happy-man-vbig"><%= image_tag("laptop-large.png", :alt => "description") %></div>  %>
-<%#
+    <div class="happy-man-vbig"><%= image_tag("laptop-large.png", :alt => "description") %></div>  
 
     <div class="mentee-popup"></div>
     <div class="mentee-popup-num">Event 4</div>
@@ -81,17 +58,11 @@
     <div class="mentee-popup-event">Date: February 28, 2019</div>
     <div class="mentee-popup-description">Mentor: Jake</div>
         <div class="mentee-popup-remove">Event Description</div>
+        <div class="green-button-123"></div>
+        <div class="im-going-123">I&#39;m going!</div>
 
-%>
+    <!-- events 5-8 -->
+    
 
-function myFunction(){
-    Swal.fire({
-  title: 'Sweet!',
-  text: 'Modal with a custom image.',
-  imageUrl: 'https://unsplash.it/400/200',
-  imageWidth: 400,
-  imageHeight: 200,
-  imageAlt: 'Custom image',
-  animation: false
-})
-}
+
+
