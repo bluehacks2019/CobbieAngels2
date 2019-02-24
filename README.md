@@ -7,7 +7,7 @@
 
 
 ## Ment for Others
-Ment for Others is an app that will allow college students to find mentors that would like to share their skills on their particular field of expertise
+Ment for Others is an app that will allow Filipino college students to find mentors that would like to share their skills in their particular field of expertise
 
 Mentees can navigate through a catalog of fields of interests and upcoming events to find mentors that will be able to help them improve their skills
 
@@ -25,11 +25,11 @@ Mentees can have individual sessions with a mentor or participate in an event to
 
     ```
     rvm list
-    rvm install 2.3.3
+    rvm install 2.5.3
     gem update
     gem install bundler
     gem install nokogiri
-    rvm use ruby-2.3.3@rails5.0 --create
+    rvm use ruby-2.5.3@rails5.0 --create
     gem install rails
     ```
   
@@ -37,6 +37,7 @@ After installation of dependencies, cd to the folder and type:
 
 ```
 bundle install
+gem update
 ```
 In order to run the app, type:
 
