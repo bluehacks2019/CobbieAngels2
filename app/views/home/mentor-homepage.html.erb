@@ -1,5 +1,3 @@
-<% if mentee_signed_in? %>
-
 <head><link rel = "stylesheet"
     type = "text/css"
     href = "mentor-homepage.css" />
@@ -52,6 +50,3 @@
     <div class="mentee-popup-event">Event Name</div>
     <div class="mentee-popup-description">Mentee's profile description</div>
         <div class="mentee-popup-remove">Remove mentee</div>
-<% else%>
-    <% redirect_to root_path%>
-<% end %>
