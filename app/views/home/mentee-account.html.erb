@@ -3,10 +3,12 @@
 <div class="navbarmain">
 <div class="logo"><%= image_tag("logo.svg", :alt => "description") %></div>
 <div class="app-title">Ment For Others</div>
-<div class="my-account">My Account</div>
+<div class="my-account">My Mentors</div>
 <div class="myacc-nav">My Account</div>
 <%= link_to 'Home', mentee_path, class: 'homenav' %>
-<div class="mentorsnav">Mentors</div>
+<%# <div class="mentorsnav">Mentors</div> %>
+<%= link_to 'Mentors', mentor_profile_path, class: 'mentorsnav' %>
+
 
 <div class="a-rectangle"></div>
 <div class="happy-man"><%= image_tag("happy-man.png", :alt => "description") %></div>
