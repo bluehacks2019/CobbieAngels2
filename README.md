@@ -24,7 +24,19 @@
     rvm use ruby-2.3.3@rails5.0 --create
     gem install rails
     ```
+  
+After installation of dependencies, cd to the folder and type:
 
+```
+bundle install
+```
+In order to run the app, type:
+
+    
+    rake db:migrate
+    rails s
+    
+    
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
