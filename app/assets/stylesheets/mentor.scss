@@ -1,20 +1,107 @@
-#dark {
-    background: black !important;
-    height: 100%;
+.my-account {
+position: absolute;
+width: 200px;
+height: 53px;
+left: 98px;
+top: 199px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 40px;
+
+color: #3C5CCB;
+
 }
 
-.bg-orange {
-    background: #cc6633 !important;
+.a-rectangle {
+    position: absolute;
+    width: 814px;
+    height: 599px;
+    left: 104px;
+    top: 312px;
+
+    background: #FBFBFB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+
 }
 
-.bg-black {
-    background: black !important;
+.happy-man {
+    position: absolute;
+    width: 376px;
+    height: 402px;
+    left: 975px;
+    top: 312px;
+
+
 }
 
-body {
-    height: 100%;
+.homenav {
+    position: absolute;
+    width: 47px;
+    height: 24px;
+    left: 1033px;
+    top: 44px;
+
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+
+    color: #FFFFFF;
 }
 
-.large-div {
-    height: 500px;
+.mentorsnav {
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    left: 1144px;
+    top: 44px;
+    
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    
+    color: #FFFFFF;
+    
+    
+}
+
+.myacc-nav {
+    position: absolute;
+width: 90px;
+height: 24px;
+left: 1261px;
+top: 44px;
+
+font-family: Assistant;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 18px;
+
+color: #FFFFFF;
+}
+
+.my-name {
+    position: absolute;
+    width: 439px;
+    height: 63px;
+    left: 142px;
+    top: 330px;
+
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 48px;
+
+    color: #3C5CCB;
+
+
 }
