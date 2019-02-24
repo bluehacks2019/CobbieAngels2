@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get:'/mentor', to:'home#mentor-homepage'
   get:'/mentee/profile', to:'home#mentee-account'
   get:'/mentor/profile', to:'home#mentor-account'
+  get:'/mentor/events', to:'home#mentee-homepage-2'
   resources :mentees, :mentors
   root to: 'home#index'
 end

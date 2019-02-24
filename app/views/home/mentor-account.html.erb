@@ -3,11 +3,10 @@
 <div class="navbarmain">
 <div class="logo"><%= image_tag("logo.svg", :alt => "description") %></div>
 <div class="app-title">Ment For Others</div>
-<div class="my-account">My Account</div>
-<div class="myacc-nav">My Account</div>
+<%# <div class="my-account">My Account</div> %>
+<%# <div class="myacc-nav">My Account</div> %>
 <%= link_to 'Home', mentor_path, class: 'homenav' %>
-<div class="mentorsnav">Mentors</div>
-
+<%= link_to "Logout", destroy_mentor_session_path, class: 'logout', :method => :delete %>
 <div class="a-rectangle"></div>
 <div class="happy-man"><%= image_tag("happy-man.png", :alt => "description") %></div>
 <div class="my-name">FirstName LastName</div>

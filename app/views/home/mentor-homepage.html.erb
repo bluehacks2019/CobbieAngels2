@@ -6,14 +6,13 @@
     <div class="logo"><%= image_tag("logo.svg", :alt => "description") %></div>
     <div class="app-title">Ment for Others</div>
     <%= link_to 'Home', mentor_path, class: 'home-button' %>
-    <div class="events-button">Events</div>
+    <%= link_to 'My Events', mentor_events_path, class: 'events-button'%>
+    
+    <%# <div class="events-button">Events</div> %>
     <div class="feature-button">Create Event</div>
-<<<<<<< HEAD
-    <%= link_to 'My Account', mentor_profile_path, class: 'feature-button' %>
-=======
-    <div class="my-profile">My Profile</div>
-    <div class="logout">Logout</div>
->>>>>>> 5cb201c6b481e96e5faa6c5f8c2975b3690bba54
+    <%= link_to 'My Profile', mentor_profile_path, class: 'my-profile' %>
+    <%# <div class="logout">Logout</div> %>
+    <%= link_to "Logout", destroy_mentor_session_path, class: 'logout', :method => :delete %>
     <div class="white-bg"></div>
     <div class="mentee-header">My Mentees</div>
 
@@ -86,4 +85,4 @@
         <div class="mentee-popup-remove">Remove mentee</div>
 
 %>
->>>>>>> 5cb201c6b481e96e5faa6c5f8c2975b3690bba54
+

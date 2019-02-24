@@ -8,13 +8,12 @@
     <div class="navbarmain"></div>
     <div class="logo"><%= image_tag("logo.svg", :alt => "description") %></div>
     <div class="app-title">Ment for Others</div>
-    <%= link_to 'Home', mentor_path, class: 'home-button' %>
+    <%= link_to 'Home', mentee_path, class: 'home-button' %>
     <div class="events-button">Events</div>
-    <div class="feature-button">Create Event</div>
-    <div class="my-profile">My Profile</div>
-    <div class="logout">Logout</div>
+    <%= link_to "My Profile", mentee_path, class: 'my-profile' %>
+    <%= link_to "Logout", destroy_mentee_session_path, class: 'logout', :method => :delete %>
     <div class="white-bg"></div>
-    <div class="mentee-header">My Mentees</div>
+    <div class="mentee-header">My Mentors</div>
 
     <div class="event-pic-top pic1" onClick = "myFunction()"">
     <%= image_tag("laptop-normal.png", :alt => "description") %></div>
