@@ -13,6 +13,13 @@
 ActiveRecord::Schema.define(version: 2019_02_23_180509) do
 
   create_table "events", force: :cascade do |t|
+    t.time "timein"
+    t.time "timeout"
+    t.date "date"
+    t.string "name"
+    t.string "location"
+    t.string "description"
+    t.string "topic"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
