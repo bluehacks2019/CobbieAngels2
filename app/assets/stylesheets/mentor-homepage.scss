@@ -29,7 +29,7 @@ color: #FFFFFF;
     position: absolute;
 width: 47px;
 height: 24px;
-left: 1066px;
+left: 1000px;
 top: 44px;
 
 font-family: Assistant;
@@ -45,7 +45,7 @@ color: #FFFFFF;
     position: absolute;
 width: 53px;
 height: 24px;
-left: 1175px;
+left: 1065px;
 top: 44px;
 
 font-family: Assistant;
@@ -61,7 +61,7 @@ color: #FFFFFF;
     position: absolute;
 width: 100px;
 height: 24px;
-left: 1290px;
+left: 1138px;
 top: 44px;
 
 font-family: Assistant;
@@ -72,6 +72,39 @@ font-size: 18px;
 
 color: #FFFFFF;
 
+}
+
+.my-profile{
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 1255px;
+    top: 44px;
+    
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    
+    color: #FFFFFF;
+}
+
+.logout{
+        position: absolute;
+        width: 100px;
+        height: 24px;
+        left: 1350px;
+        top: 44px;
+        
+        font-family: Assistant;
+        font-style: normal;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 18px;
+        
+        color: #FFFFFF;
+    
 }
 
 .white-bg{
@@ -105,7 +138,7 @@ font-weight: bold;
 line-height: normal;
 font-size: 40px;
 
-color: black;
+color: #FFFFFF;
 
 }
 
@@ -124,8 +157,7 @@ color: black;
 }
 
 .card-bottom{
-    top: 660px;
-
+    top: 847px;
 }
 
 .card-description{
@@ -140,14 +172,14 @@ font-weight: 600;
 line-height: normal;
 font-size: 18px;
 
-color: black;
+color: #FFFFFF;
 
 }
 .card-description-bottom{
     position: absolute;
     width: 262px;
     height: 24px;
-    top: 554px;
+    top: 935px;
     
     font-family: Assistant;
     font-style: normal;
@@ -155,9 +187,13 @@ color: black;
     line-height: normal;
     font-size: 18px;
     
-    color: black;
+    color: #FFFFFF;
 }
 
+.desc-bottom{
+    top: 920px;
+
+}
 .card-date{
     position: absolute;
 width: 176px;
@@ -170,9 +206,26 @@ font-weight: bold;
 line-height: normal;
 font-size: 18px;
 
-color: black;
+color: #FFFFFF;
 
 }
+
+.card-date-bottom{
+    position: absolute;
+    width: 176px;
+    height: 24px;
+    top: 586px;
+    
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    
+    color: #FFFFFF;
+    top: 965px;    
+}
+
 .mentee-popup{
     position: absolute;
 width: 513px;
@@ -280,5 +333,66 @@ line-height: normal;
 font-size: 18px;
 
 color: #FFFFFF;
+
+}
+
+.event-pic-top{
+position: absolute;
+width: 289.74px;
+height: 317px;
+top: 311px;
+}
+
+.event-pic-bottom{
+    top: 687px;
+    position: absolute;
+width: 289.74px;
+height: 317px;
+}
+
+.pic1{
+    left: 98px;
+}
+.pic2{
+    left: 421px;
+
+}
+.pic3{
+    left: 744px;
+
+}
+.pic4{
+    left: 1071px;
+
+}
+
+
+.rec-bg-pic{
+    position: absolute;
+width: 289.74px;
+height: 101px;
+top: 527px;
+
+background: #3C5CCB;
+border-radius: 0px 0px 3px 3px;
+}
+
+.rec-bg-pic-bottom{
+    top:900px;
+    position: absolute;
+    width: 289.74px;
+    height: 101px;
+    
+    background: #3C5CCB;
+    border-radius: 0px 0px 3px 3px;
+}
+
+
+.happy-man-vbig{
+    position: absolute;
+width: 751px;
+height: 457px;
+left: 610px;
+top: 687px;
 
 }
