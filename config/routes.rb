@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get:'/mentee', to:'home#mentee-homepage'
   get:'/mentor', to:'home#mentor-homepage'
+  get:'/mentee/profile', to:'home#mentee-account'
+  get:'/mentor/profile', to:'home#mentor-account'
   resources :mentees, :mentors
   root to: 'home#index'
 end
