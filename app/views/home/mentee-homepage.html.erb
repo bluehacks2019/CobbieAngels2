@@ -1,51 +1,81 @@
 <head><link rel = "stylesheet"
-type = "text/css"
-href = "mentee-homepage-style.css" />
-</head>
-<div class="navbarmain"></div>
-<div class="app-title">Ment for Others</div>
-<%= link_to 'Home', mentee_path, class: 'home-button' %>
-<div class="events-button">My Mentors</div>
-<div class="feature-button">My Account</div>
-<div class="white-bg"></div>
-<div class="events-header">Events</div>
-<div class="event-card card-1">Event 1</div>
-<div class="card-description card-1">Learn HTML/CSS basics with Jake</div>
-<div class="card-date card-1">February 28, 2018</div>
+    type = "text/css"
+    href = "mentor-homepage.css" />
+    </head>
+    <div class="navbarmain"></div>
+    <div class="logo"><%= image_tag("logo.svg", :alt => "description") %></div>
+    <div class="app-title">Ment for Others</div>
+    <%= link_to 'Home', mentor_path, class: 'home-button' %>
+    <div class="events-button">Events</div>
+    <div class="feature-button">Create Event</div>
+    <div class="my-profile">My Profile</div>
+    <div class="logout">Logout</div>
+    <div class="white-bg"></div>
+    <div class="mentee-header">My Mentees</div>
 
-<div class="event-card card-2">Event 2</div>
-<div class="card-description card-2">Learn HTML/CSS basics with Jake</div>
-<div class="card-date card-2">February 28, 2018</div>
+    <div class="event-pic-top pic1"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
+    <div class="rec-bg-pic pic1"></div>
+    <div class="event-pic-top pic2"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
+    <div class="rec-bg-pic pic2"></div>
+    <div class="event-pic-top pic3"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
+    <div class="rec-bg-pic pic3"></div>
+    <div class="event-pic-top pic4"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
+    <div class="rec-bg-pic pic4"></div>
+    <div class="event-pic-bottom pic1"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
+    <div class="rec-bg-pic-bottom pic1"></div>
+    <div class="event-pic-bottom pic2"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
+    <div class="rec-bg-pic-bottom pic2"></div>
+    <div class="event-pic-bottom pic3"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
+    <div class="rec-bg-pic-bottom pic3"></div>
+    <div class="event-pic-bottom pic4"><%= image_tag("laptop-normal.png", :alt => "description") %></div>
+    <div class="rec-bg-pic-bottom pic4"></div>
+    
 
-<div class="event-card card-3">Event 3</div>
-<div class="card-description card-3">Learn HTML/CSS basics with Jake</div>
-<div class="card-date card-3">February 28, 2018</div>
+    <div class="event-card card-1">Event 1</div>
+    <div class="card-description card-1">Learn HTML/CSS basics with Jake</div>
+    <div class="card-date card-1">February 28, 2019</div>
 
-<div class="event-card card-4">Event 4</div>
-<div class="card-description card-4">Learn HTML/CSS basics with Jake</div>
-<div class="card-date card-4">February 28, 2018</div>
+    <div class="event-card card-2">Event 2</div>
+    <div class="card-description card-2">Learn HTML/CSS basics with Jake</div>
+    <div class="card-date card-2">February 28, 2019</div>
 
-<!-- events 5-8 -->
-<!-- <div class="event-card card-1 card-bottom">Event 5</div>
-<div class="card-description card-1 card-bottom">Learn HTML/CSS basics with Jake</div>
-<div class="card-date card-1 card-bottom">February 28, 2018</div>
+    <div class="event-card card-3">Event 3</div>
+    <div class="card-description card-3">Learn HTML/CSS basics with Jake</div>
+    <div class="card-date card-3">February 28, 2019</div>
 
-<div class="event-card card-2 card-bottom">Event 6</div>
-<div class="card-description card-2 card-bottom">Learn HTML/CSS basics with Jake</div>
-<div class="card-date card-2 card-bottom">February 28, 2018</div>
+    <div class="event-card card-4">Event 4</div>
+    <div class="card-description card-4">Learn HTML/CSS basics with Jake</div>
+    <div class="card-date card-4">February 28, 2019</div>
 
-<div class="event-card card-3 card-bottom">Event 7</div>
-<div class="card-description card-3 card-bottom">Learn HTML/CSS basics with Jake</div>
-<div class="card-date card-3 card-bottom">February 28, 2018</div>
+ 
+    <!-- events 5-8 -->
+    
 
-<div class="event-card card-4 card-bottom">Event 8</div>
-<div class="card-description card-4 card-bottom">Learn HTML/CSS basics with Jake</div>
-<div class="card-date card-4 card-bottom">February 28, 2018</div> -->
+     <div class="event-card card-1 card-bottom">Event 5</div>
+    <div class="card-description-bottom card-1 card-bottom">Learn HTML/CSS basics with Jake</div>
+    <div class="card-date-bottom card-1 card-bottom">February 28, 2019</div>
 
-<!-- event popup-->
-<div class="event-popup"></div>
-<div class="event-popup-num">Event 4</div>
-<div class="event-popup-title">Learn HTML/CSS basics</div>
-<div class="event-popup-details">Date: February 28, 2019
-    Mentor: Jake</div>
-    <div class="event-popup-description">Lorem ipsum Lorem ipsum Lorem ipsum</div>
+    <div class="event-card card-2 card-bottom">Event 6</div>
+    <div class="card-description-bottom card-2 card-bottom">Learn HTML/CSS basics with Jake</div>
+    <div class="card-date-bottom card-2 card-bottom">February 28, 2019</div>
+
+    <div class="event-card card-3 card-bottom">Event 7</div>
+    <div class="card-description-bottom card-3 card-bottom">Learn HTML/CSS basics with Jake</div>
+    <div class="card-date-bottom card-3 card-bottom">February 28, 2019</div>
+
+    <div class="event-card card-4 card-bottom">Event 8</div>
+    <div class="card-description-bottom card-4 card-bottom">Learn HTML/CSS basics with Jake</div>
+    <div class="card-date-bottom card-4 card-bottom">February 28, 2019</div> 
+
+<%#
+<div class="happy-man-vbig"><%= image_tag("laptop-large.png", :alt => "description") %></div>  %>
+<%#
+
+    <div class="mentee-popup"></div>
+    <div class="mentee-popup-num">Event 4</div>
+    <div class="mentee-popup-name">Learn HTML/CSS basics with Jake</div>
+    <div class="mentee-popup-event">Date: February 28, 2019</div>
+    <div class="mentee-popup-description">Mentor: Jake</div>
+        <div class="mentee-popup-remove">Event Description</div>
+
+%>
